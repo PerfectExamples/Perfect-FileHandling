@@ -23,7 +23,7 @@
 
 <p align="center">
     <a href="https://developer.apple.com/swift/" target="_blank">
-        <img src="https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat" alt="Swift 3.0">
+        <img src="https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat" alt="Swift 4.0">
     </a>
     <a href="https://developer.apple.com/swift/" target="_blank">
         <img src="https://img.shields.io/badge/Platforms-OS%20X%20%7C%20Linux%20-lightgray.svg?style=flat" alt="Platforms OS X | Linux">
@@ -43,18 +43,17 @@
 
 
 该项目通过SPM软件包管理器编译，是[Perfect](https://github.com/PerfectlySoft/Perfect)项目之一</br>
-请确保您已经安装了Xcode 8.0或更高版本。
+请确保您已经安装了Xcode 9.2或更高版本。
 
-## 准备工作 - 使用Xcode 8
+## 准备工作 - 使用Xcode 9
 
 * 导出或下载工程
 * 在终端中，导航到目录并执行
 
 ```
-swift package generate-xcodeproj
+swift package generate-xcodeproj && open Perfect-FileHandling.xcodeproj
 ```
 
-* 打开 `Perfect-FileHandling.xcodeproj`
 * 在Xcode的构建目标下拉来选择可执行文件
 * 在Xcode中使用(cmd-R)命令来编译运行项目工程
 
@@ -87,8 +86,7 @@ Program ended with exit code: 0
 
 * 导出或下载工程;
 * 在终端中，导航到工程目录  
-* 执行 `swift build`命令
-* 项目编译成功后, 请执行 `./.build/debug/Perfect-FileHandling`
+* 执行 `swift run`命令
 
 您将看到输出同上.
 

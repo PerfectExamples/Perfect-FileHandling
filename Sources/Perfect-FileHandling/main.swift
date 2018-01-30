@@ -144,7 +144,7 @@ do {
 	try parent?.forEachEntry(closure: {
 		n in
 		print("Deleting: \(n)")
-		var toDelete = File(n)
+		let toDelete = File(n)
 		toDelete.delete()
 	})
 } catch {

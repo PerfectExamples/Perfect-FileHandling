@@ -23,7 +23,7 @@
 
 <p align="center">
     <a href="https://developer.apple.com/swift/" target="_blank">
-        <img src="https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat" alt="Swift 3.0">
+        <img src="https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat" alt="Swift 4.0">
     </a>
     <a href="https://developer.apple.com/swift/" target="_blank">
         <img src="https://img.shields.io/badge/Platforms-OS%20X%20%7C%20Linux%20-lightgray.svg?style=flat" alt="Platforms OS X | Linux">
@@ -43,18 +43,17 @@ An example of file handling for Perfect
 
 This package builds with Swift Package Manager and is part of the [Perfect](https://github.com/PerfectlySoft/Perfect) project.
 
-Ensure you have installed Xcode 8.0 or later.
+Ensure you have installed Xcode 9.2 or later.
 
-## Setup - Xcode 8
+## Setup - Xcode 9
 
 * Check out or download the project;
 * In terminal, navigate to the directory and execute
 
 ```
-swift package generate-xcodeproj
+swift package generate-xcodeproj && open Perfect-FileHandling.xcodeproj
 ```
 
-* Open `Perfect-FileHandling.xcodeproj`
 * Select the Executable build target from the build targets dropdown in Xcode
 * Run (cmd-R) to build & run in Xcode.
 
@@ -86,8 +85,7 @@ Program ended with exit code: 0
 
 * Check out or download the project;
 * In terminal, navigate to the directory 
-* Execute `swift build`
-* Once the project has compiled, execute `./.build/debug/Perfect-FileHandling`
+* Execute `swift run`
 
 You will see output as above.
 
