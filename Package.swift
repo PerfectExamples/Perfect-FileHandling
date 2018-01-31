@@ -25,7 +25,7 @@ let package = Package(
     name: "Perfect-FileHandling",
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/PerfectlySoft/Perfect.git", from: "3.0.0"),
+        .package(url: "https://github.com/PerfectlySoft/PerfectLib.git", from: "3.0.0"),
     ],
     targets: [
         .target(
